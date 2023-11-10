@@ -101,7 +101,7 @@ const Player = () => {
   };
 
   return (
-    <div className="flex flex-col items-center min-h-screen gap-8 mx-4 ">
+    <div className="flex flex-col items-center h-[100vh] gap-8 mx-4 ">
       <div className="flex items-center justify-center ">
         <input
           className="relative m-0 block w-full min-w-0 flex-auto rounded-lg border border-solid border-neutral-200 bg-clip-padding px-3 py-[0.32rem] text-base font-normal text-neutral-300 transition duration-300 ease-in-out file:-mx-3 file:py-2 file:-my-[0.32rem] file:overflow-hidden file:rounded-l-lg file:border-0 file:border-solid file:border-inherit file:bg-lime-400 file:px-3  file:text-black file:transition file:duration-150 file:ease-in-out file:[border-inline-end-width:1px] file:[margin-inline-end:0.75rem] hover:file:bg-lime-500 focus:border-primary focus:shadow-te-primary focus:outline-none "
@@ -112,7 +112,7 @@ const Player = () => {
         />
       </div>
       <div className="flex flex-col items-start justify-center w-full gap-2 md:flex-row ">
-        <div className="md:flex-[0.8]  flex justify-between items-center flex-col">
+        <div className="md:flex-[0.8] flex justify-between items-center flex-col">
           <div className="relative flex items-center justify-center w-full">
             <video
               ref={videoRef}
@@ -145,7 +145,7 @@ const Player = () => {
           </div>
         </div>
         {videoSrc ? (
-          <div className="md:flex-[0.2] border  lg:mr-8 mt-6 md:mt-0 flex w-full  flex-col items-start p-4 justify-start gap-2 rounded-xl">
+          <div className="md:flex-[0.2]   h-full border  lg:mr-8 mt-6 md:mt-0 flex w-full  flex-col items-start p-4 justify-start gap-2 rounded-xl">
             <h1 className="text-xl font-medium text-white underline underline-offset-2">
               Metadata
             </h1>
