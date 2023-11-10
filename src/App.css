@@ -2,3 +2,6 @@
   background-image: url(/vidyoai-grid.svg),
     linear-gradient(to bottom, #a02c80, #811262 73%, #79125c);
 }
+#waveform ::part(cursor) {
+  height: 50px;
+}
